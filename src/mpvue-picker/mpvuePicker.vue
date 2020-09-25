@@ -563,11 +563,11 @@ export default {
 
 .mpvue-picker__hd {
   display: flex;
-  padding: 9px 15px;
+  padding: 9PX 15PX;
   background-color: #fff;
   position: relative;
   text-align: center;
-  font-size: 17px;
+  font-size: 17PX;
 }
 
 .mpvue-picker__hd:after {
@@ -576,8 +576,8 @@ export default {
   left: 0;
   bottom: 0;
   right: 0;
-  height: 1px;
-  border-bottom: 1px solid #e5e5e5;
+  height: 1PX;
+  border-bottom: 1PX solid #e5e5e5;
   color: #e5e5e5;
   transform-origin: 0 100%;
   transform: scaleY(0.5);
@@ -600,8 +600,8 @@ export default {
 
 .picker-item {
   text-align: center;
-  line-height: 40px;
-  font-size: 16px;
+  line-height: 40PX;
+  font-size: 16PX;
 }
 
 .mpvue-picker-view {
@@ -609,7 +609,7 @@ export default {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 238px;
+  height: 238PX;
   background-color: rgba(255, 255, 255, 1);
 }
 </style>
